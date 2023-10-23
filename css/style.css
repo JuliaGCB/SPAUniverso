@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    background-image: url(../img/mountains-universe-1.png);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100% !important;
+}
+
+.Navbar{
+    padding: 50px;
+    padding-left: 70px;
+}
+
+.Navbar img{
+    padding-top: 30px !important; 
+    padding-left: 50px;
+    pointer-events: fill;
+}
+.Navbar a{
+    padding-left: 30px;
+    color: #707070;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Navbar a:hover{
+    color: #fff;
+
+}
+.Navbar a:active {
+    color: #fff;
+}
+/*---------------Pagina Home---------*/
+
+.Home{
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 25px;
+}
+.Home button{
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    text-transform: uppercase ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Home button:hover{
+    color: #191f62;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+/*---------------Pagina O Universo---------*/
+.universo-body{
+    background-image: url(/img/mountains-universe02.png);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100% !important;
+}
+.universo{
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap:30px;
+    padding-top: 10vh;
+   padding-left:25vh;
+   padding-right:30vh; 
+}
+.universo p{
+    text-align: left;
+}
+/*----------Pagina Exploração---------*/
+.exploracao-body{
+    background-image: url(/img/mountains-universe-3.png);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100% !important;
+}
+.exploracao{
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap:30px;
+    padding-top: 10vh;
+   padding-left:25vh;
+   padding-right:30vh; 
+}
+ 
+.exploracao p{
+    text-align: left;
+}
+
+/*----------Pagina contato---------*/
+
+.contato-body{
+    background-image: url(/img/mountains-universe02.png);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100% !important;
+}
+
+.contato{
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 25px; 
+}
+/*------------Mudanças Mobale ---------*/
+
+@media screen and (max-width: 768px) {
+    html{
+        background-image: url(../img/mountains-universe-1.png);
+        background-position: center center ;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+}
